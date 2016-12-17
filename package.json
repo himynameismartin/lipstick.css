@@ -1,0 +1,22 @@
+{
+  "name": "lipstick.css",
+  "version": "0.0.1",
+  "description": "A Lorem Impsum CSS Toolkit",
+  "keywords": ["Less", "CSS", "Lorem Ipsum"],
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "himynameismartin",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/himynameismartin/lipstick.css.git"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.0",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

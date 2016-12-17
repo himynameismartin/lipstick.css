@@ -1,0 +1,116 @@
+.lipstick__image {
+  display: block;
+  width: 0px;
+  height: 0px;
+  padding: 100% 100% 0 0;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%3Cg%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f06%22%20/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%20alignment-baseline%3D%22middle%22%20fill%3D%22%23fff%22%3Elipstick.css%3C/text%3E%3C/g%3E%3C/svg%3E');
+}
+.lipstick__image--765x120 {
+  padding: 120px 765px 0 0;
+}
+.lipstick__image--80x120 {
+  padding: 120px 80px 0 0;
+}
+.lipstick__image--120x80 {
+  padding: 80px 120px 0 0;
+}
+.lipstick__image--8x8 {
+  padding: 8px 8px 0 0;
+}
+.lipstick__image--pink {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%3Cg%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f06%22%20/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%20alignment-baseline%3D%22middle%22%20fill%3D%22%23fff%22%3Elipstick.css%3C/text%3E%3C/g%3E%3C/svg%3E');
+}
+.lipstick__image--white {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%3Cg%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23fff%22%20/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%20alignment-baseline%3D%22middle%22%20fill%3D%22%23000%22%3Elipstick.css%3C/text%3E%3C/g%3E%3C/svg%3E');
+}
+.lipstick__image--black {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%3Cg%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23000%22%20/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%20alignment-baseline%3D%22middle%22%20fill%3D%22%23fff%22%3Elipstick.css%3C/text%3E%3C/g%3E%3C/svg%3E');
+}
+.lipstick__text::after {
+  content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor';
+}
+.lipstick__text--large-paragraph::after {
+  content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident sunt in';
+}
+.lipstick__text--medium-paragraph::after {
+  content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor';
+}
+.lipstick__text--small-paragraph::after {
+  content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut';
+}
+.lipstick__text--5-words::after {
+  content: 'Lorem ipsum dolor sit amet';
+}
+.lipstick__text--4-words::after {
+  content: 'Lorem ipsum dolor sit';
+}
+.lipstick__text--3-words::after {
+  content: 'Lorem ipsum dolor';
+}
+.lipstick__text--2-words::after {
+  content: 'Lorem ipsum';
+}
+.lipstick__text--1-word::after {
+  content: 'Lorem';
+}
+.lipstick__text--20-characters::after {
+  content: 'Lorem ipsum dolor si';
+}
+.lipstick__text--19-characters::after {
+  content: 'Lorem ipsum dolor s';
+}
+.lipstick__text--18-characters::after {
+  content: 'Lorem ipsum dolor ';
+}
+.lipstick__text--17-characters::after {
+  content: 'Lorem ipsum dolor';
+}
+.lipstick__text--16-characters::after {
+  content: 'Lorem ipsum dolo';
+}
+.lipstick__text--15-characters::after {
+  content: 'Lorem ipsum dol';
+}
+.lipstick__text--14-characters::after {
+  content: 'Lorem ipsum do';
+}
+.lipstick__text--13-characters::after {
+  content: 'Lorem ipsum d';
+}
+.lipstick__text--12-characters::after {
+  content: 'Lorem ipsum ';
+}
+.lipstick__text--11-characters::after {
+  content: 'Lorem ipsum';
+}
+.lipstick__text--10-characters::after {
+  content: 'Lorem ipsu';
+}
+.lipstick__text--9-characters::after {
+  content: 'Lorem ips';
+}
+.lipstick__text--8-characters::after {
+  content: 'Lorem ip';
+}
+.lipstick__text--7-characters::after {
+  content: 'Lorem i';
+}
+.lipstick__text--6-characters::after {
+  content: 'Lorem ';
+}
+.lipstick__text--5-characters::after {
+  content: 'Lorem';
+}
+.lipstick__text--4-characters::after {
+  content: 'Lore';
+}
+.lipstick__text--3-characters::after {
+  content: 'Lor';
+}
+.lipstick__text--2-characters::after {
+  content: 'Lo';
+}
+.lipstick__text--1-character::after {
+  content: 'L';
+}
