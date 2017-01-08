@@ -1,2 +1,2 @@
 # lipstick.css
-A Lorem Impsum CSS Toolkit
+A Lorem Ipsum CSS Toolkit
