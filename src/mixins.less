@@ -1,0 +1,16 @@
+.image(@background: extract(extract(@colors, length(@colors)), 2); @color: extract(extract(@colors, length(@colors)), 3)) {
+    @template: ~'<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><g><rect x="0" y="0" width="100%" height="100%" fill="@{background}" /><text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="@{color}">lipstick.css</text></g></svg>';
+    @image: escape(~'@{template}');
+    background-image: url('data:image/svg+xml;charset=utf-8,@{image}');
+}
+
+.words(@base; @final) {
+    @length: length(@base) - @final;
+    @str: '@{base}';
+    content: replace('@{str}', '( [a-zA-Z]+){@{length}}$', '');
+}
+
+.characters(@base; @length) {
+    @str: '@{base}';
+    content: replace('@{str}', '((^.{@{length}})( ?[a-zA-Z]+)*$)', '$2');
+}

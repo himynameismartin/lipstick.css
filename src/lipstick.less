@@ -1,47 +1,5 @@
-// Variables
-
-@images:
-    8 8,
-    120 80,
-    80 120,
-    765 120;
-
-@colors:
-    black #000 #fff,
-    white #fff #000,
-    pink #f06 #fff;
-
-@list: Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum;
-
-@paragraphs:
-    small-paragraph 20,
-    medium-paragraph 40,
-    large-paragraph 60;
-
-@words: 5;
-
-@characters: 20;
-
-// Mixins
-
-.image(@background: extract(extract(@colors, length(@colors)), 2); @color: extract(extract(@colors, length(@colors)), 3)) {
-    @template: ~'<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><g><rect x="0" y="0" width="100%" height="100%" fill="@{background}" /><text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="@{color}">lipstick.css</text></g></svg>';
-    @image: escape(~'@{template}');
-    background-image: url('data:image/svg+xml;charset=utf-8,@{image}');
-}
-
-.words(@base; @final) {
-    @length: length(@base) - @final;
-    @str: '@{base}';
-    content: replace('@{str}', '( [a-zA-Z]+){@{length}}$', '');
-}
-
-.characters(@base; @length) {
-    @str: '@{base}';
-    content: replace('@{str}', '((^.{@{length}})( ?[a-zA-Z]+)*$)', '$2');
-}
-
-// Styles
+@import "variables.less";
+@import "mixins.less";
 
 .lipstick__image {
     display: block;
