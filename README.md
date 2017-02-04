@@ -8,7 +8,7 @@ A **Lorem Ipsum CSS Toolkit**, or *lipstick.css*, is a pure CSS proof of concept
 <link href="/css/lipstick.css" rel="stylesheet">
 
 <!-- By default, .lipstick__image makes 100% x 100% of parent width image, which you might override by, for example, .lipstick__image--8x8 -->
-<img src="//:0" alt="A 8x8px image" class="lipstick__image lipstick__image--8x8" />
+<img src="//:0" alt="An 8x8px image" class="lipstick__image lipstick__image--8x8" />
 
 <!-- A medium paragraph by default -->
 <p class="lipstick__text"></p>
