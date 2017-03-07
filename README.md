@@ -32,6 +32,10 @@ A **Lorem Ipsum CSS Toolkit**, or *lipstick.css*, is a pure CSS proof of concept
 <div class="lipstick__text--1-character"></div>
 ```
 
+## A Playground
+
+[Have fun.](http://codepen.io/himynameismartin/pen/zZooLd)
+
 ## License
 
 Dual CC0 and MIT.
